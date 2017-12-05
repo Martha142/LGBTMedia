@@ -1,0 +1,270 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323 url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Flag_of_Cusco.svg/2000px-Flag_of_Cusco.svg.png");
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+.drop div{
+  height: 50px;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-size: 100px;
+  color: rgba(0,0,0,1);
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  font-family: 'Crete Round', serif;
+  color: rgba(0,0,0,1);
+  margin: 0px 0 20px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+
+.Sparkle {
+  font-size:100px;
+  font-family: 'Monoton', cursive;
+ -webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent), url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+ height: 150px;
+ width: 700px;
+ position: center;
+ margin: 60px 0 0 0;
+}
+
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
+}
+.second{
+  background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+}
+.dessert{
+  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+}
+.price {
+  float: right;
+}
+
+.lesbian p{
+  background: linear-gradient(bottom, rgba(200,0,0,1), rgba(200,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(200,0,0,1), rgba(200,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(20,0,0,1), rgba(200,0,0,.4));
+}
+
+.gay p{
+  background: linear-gradient(bottom, rgba(0,100,100,1), rgba(0,100,100,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,100,100,1), rgba(0,100,100,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,100,100,1), rgba(0,100,100,.4));
+}
+
+.transgender p{
+  background: linear-gradient(bottom, rgba(100,0,100,1), rgba(100,0,100,.4));
+  background: -webkit-linear-gradient(bottom, rgba(100,0,100,1), rgba(100,0,100,.4));
+  background: -moz-linear-gradient(bottom, rgba(100,0,100,1), rgba(100,0,100,.4));
+}
+
+.dropbtn {
+    background-color: rgba(200,0,200,1);
+    color: white;
+    padding: 0 16px 0 16px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    background-width: 150px;
+    background-height: 30px;
+    margin: -50px auto -50px auto;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    font-family: 'Crete Round', serif;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+#myDIV {
+ text-align: centre; 
+}
+
+#c1 {
+  background-image: url(" https://i.ytimg.com/vi/5AWP1K7FaFI/maxresdefault.jpg");
+}
+
+#c2 {
+  background-image: url("http://www.texasartfilm.net/wp-content/uploads/2017/04/3067682-poster-p-1-revision-history-how-sundances-beach-rats-became-a-movie.jpg");
+}
+
+#c3 {
+  background-image: url("https://www.musicboxtheatre.com/sites/default/files/styles/movie_stills/public/movie-stills/bpm-beats-per-minute/bpm-beats-per-minute-20174871.jpg?itok=2QGn_NLB");
+}
+
+#c4 {
+  background-image: url("https://i1.wp.com/teaser-trailer.com/wp-content/uploads/Call-Me-By-Your-Name-Movie.jpg?resize=600%2C351&ssl=1 ");
+}
+
+#c5 {
+  background-image: url("https://i2.wp.com/teaser-trailer.com/wp-content/uploads/discreet-movie.jpg?resize=600%2C228&ssl=1");
+}
+
+#c6 {
+  background-image: url("https://www.goombastomp.com/wp-content/uploads/2017/09/Fantastic_Woman_01.jpg");
+}
+
+#c7 {
+  background-image: url("https://ksr-ugc.imgix.net/assets/012/129/761/2de539d992eb3b64b8fed8d43d09c04c_original.jpg?w=1536&h=864&fit=fill&bg=000000&v=1463738073&auto=format&q=92&s=4bb209d901df987629a7da600fb85d34");
+}
+
+#c8 {
+  background-image: url("http://static.highsnobiety.com/wp-content/uploads/2017/02/20160659/berlinale-2017-best-movies-freak-show.jpg");
+}
+
+#c9 {
+  background-image: url("https://www.phoenix.org.uk/content/uploads/2017/08/Gods-Own-Country-1200x600-c-default.jpg");
+}
+
+#c10 {
+  background-image: url(" https://www.northernstars.ca/wp-content/uploads/2017/05/Hello_Again-image.jpg ");
+}
+
+#c11 {
+  background-image: url("https://tiglff.com/wp-content/uploads/2017/09/I-Dream-in-Another-Language-642x350.jpg ");
+}
+
+#c12 {
+  background-image: url("http://www.filmhuismechelen.be/wp-content/uploads/2017/09/Promo_Just_Like_Our_Parents_NL.jpg");
+}
+
+#c13 {
+  background-image: url("https://www.psfilmfest.org/assets/images/films/shortfest/2016/n/neversteadyneverstill_03.jpg ");
+}
+
+#c14 {
+  background-image: url("https://thefilmstage.com/wp-content/uploads/2017/04/Princess-Cyd-2-620x349.jpg ");
+}
+
+#c15 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMzBjYmE1YWEtZmNiYy00YTQyLThiMzAtYmFhMzI3ZmFlY2ZkXkEyXkFqcGdeQXVyMjIxMDkwMTk@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#c16 {
+  background-image: url("http://media2.firstshowing.net/firstshowing/img10/SignatureMovemainkissGirlsTrl1tsr1.jpg");
+}
+
+#c17 {
+  background-image: url("http://cult-mag.de/wp-content/uploads/2017/01/Ri-Chang-Dui-Hua-Small-Talk-Land-TWN-2016-Regie-Hui-chen-Huang-Bildbeschreibung-Sektion-Panorama-Datei-201710814_1.jpg-%C2%A9-Small-Talk-Productions.jpg");
+}
+
+#c18 {
+  background-image: url("http://nuovocinemalocatelli.com/wp-content/uploads/2017/12/OFF_They_04_Grade_All_Reels.jpg");
+}
+
+#c19 {
+  background-image: url("http://www.elavienkuvienteatteri.fi/client/ekt/userfiles/tom-of-finland-4v.jpg");
+}
+
+#c20 {
+  background-image: url("https://www.vimooz.com/wp-content/uploads/2016/12/The_Wound_John_Trengove-1024x576.jpg ");
+}
+
+
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0);
+      position:center;
+      text-align: center;
+    }
+    li {
+      display:inline;
+      position:center;
+      text-align:center;
+    }
