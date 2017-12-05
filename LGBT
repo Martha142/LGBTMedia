@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+
+<div class="Sparkle">LGBT MEDIA  </div>
+
+<h2>Filter-able list of LGBT films from 2017!</h2>
+
+
+<ul>
+  <li>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Themes</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home" class="ab">All Films</a>
+    <a href="#lesbian" class="lb">Primarily Lesbian Themes</a>
+    <a href="#gay" class="gb">Primarily Gay Themes</a>
+    <a href="#transgender" class="tb">Primarily Transgender Themes</a>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="dropdown">
+<button onclick="myFunction1()" class="dropbtn">Language</button>
+  <div id="myDropdown1" class="dropdown-content">
+    <a href="#home" class="ab1">All Films</a>
+    <a href="#english" class="engb">English Language Films</a>
+    <a href="#foreign" class="forb">Foreign Language Films</a>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="dropdown">
+<button onclick="myFunction2()" class="dropbtn">Genre</button>
+  <div id="myDropdown2" class="dropdown-content">
+    <a href="#home" class="ab2">All Films</a>
+    <a href="#drama" class="drab">Dramas</a>
+    <a href="#comedy" class="comb">Comedies</a>
+    <a href="#scifi" class="scib">Fantasy and Scifi Films</a>
+    <a href="#documentary" class="docb">Documentaries</a>
+  </div>
+</div>
+</li>
+</ul>
+
+
+<div class=" film lesbian english comedy" id="c1">
+  <p>Battle of the Sexes <span class="price">IMDB Rating: 7.0</span><br />
+  <small>The true story of the 1973 tennis match between World number one Billie Jean King and ex-champ and serial hustler Bobby Riggs. </small></p>
+</div>
+
+<div class="film gay english drama" id ="c2">
+  <p>Beach Rats<span class="price">IMDB Rating: 6.5</span><br />
+  <small>A Brooklyn teenager spends his days experimenting with drugs and looking online for older men to meet with.</small></p>
+</div>
+  
+<div class="film gay english drama" id="c3">
+  <p>BPM (Beats Per Minute) <span class="price">IMDB Rating: 7.7</span><br />
+  <small>120 BPM. The average heart rate. The protagonists of 120 battements par minute are passionate about fighting the indifference that exists towards AIDS.
+  </small></p>
+</div>
+
+<div class="film gay english drama" id="c4">
+  <p>Call Me by Your Name <span class="price">IMDB Rating: 8.4</span><br />
+  <small>In Northern Italy in 1983, seventeen year-old Elio begins a relationship with visiting Oliver, his father's research assistant, with whom he bonds over his emerging sexuality, their Jewish heritage, and the beguiling Italian landscape.</small></p>
+</div>
+
+
+<div class="film gay english drama" id="c5">
+  <p>Discreet<span class="price">IMDB Rating: 5.0</span><br />
+  <small>After years in hiding and struggling to control his demons, an eccentric drifter returns home and discovers that his childhood abuser, the center of his pain, is still alive. Armed with this knowledge, the drifter plots his revenge, all the while navigating the perilous land of masculine fragility in modern-day America.</small></p>
+</div>
+
+<div class="film transgender foreign drama" id="c6">
+  <p>A Fantastic Woman<span class="price">IMDB Rating: 7.5</span><br />
+  <small>Marina, a waitress who moonlights as a nightclub singer, is bowled over by the death of her older boyfriend.</small></p>
+</div>
+
+<div class="film transgender foreign scifi" id="c7">
+  <p>Fluido <span class="price"> IMDB Rating: 4.7</span><br />
+  <small>Set in the 2060s, the film depicts a world in which HIV/AIDS has been fully eradicated. In some people, however, the virus has mutated into a gene which can be extracted to create a new psychoactive drug, leading to the creation of an extensive underground network of human trafficking to capture the carriers of this mutation in order to manufacture the drug.</small></p>
+</div>
+
+<div class="film transgender english comedy" id="c8">
+  <p>Freak Show <span class="price">IMDB Rating: 7.1</span><br />
+  <small>Follows the story of teenager Billy Bloom who, despite attending an ultra conservative high school, makes the decision to run for homecoming queen.</small></p>
+</div>
+
+<div class="film gay english drama" id="c9">
+  <p>God's Own Country <span class="price">IMDB Rating: 7.8</span><br />
+  <small>Spring. Yorkshire. Young farmer Johnny Saxby numbs his daily frustrations with binge drinking and casual sex, until the arrival of a Romanian migrant worker for lambing season ignites an intense relationship that sets Johnny on a new path.</small></p>
+</div>
+
+<div class="film gay lesbian english drama" id="c10">
+  <p>Hello Again <span class="price">IMDB Rating: 6.9</span><br />
+  <small>Ten lost souls slip in and out of one another's arms in a daisy-chained exploration of love's bittersweet embrace.</small></p>
+</div>
+
+<div class="film gay foreign scifi" id="c11">
+  <p>I dream in another language <span class="price">IMDB Rating: 7.9</span><br />
+  <small>When a language dies, a unique vision of the world is lost forever.</small></p>
+</div>
+
+<div class="film lesbian english drama" id="c12">
+  <p>Just Like our Parents <span class="price">IMDB Rating: 7.5</span><br />
+  <small>When Rosa's mother makes a surprising disclosure to her one day, Rosa decides to break out of her usual obligations. In so doing she discovers that life holds many surprises in store for her.</small></p>
+</div>
+
+<div class="film gay english drama" id="c13">
+  <p>Never Steady Never still <span class="price">IMDB Rating: 7.1</span><br />
+  <small>A mother struggles to take control of her life in the face of advanced Parkinson's disease, while her son battles his sexual and emotional identity amongst the violence of Alberta's oil field work camps.</small></p>
+</div>
+
+<div class="film lesbian foreign drama" id="c14">
+  <p>Princess Cyd <span class="price">IMDB Rating: 7.2</span><br />
+  <small>Eager to escape life with her depressive single father, 16-year-old athlete Cyd Loughlin visits her novelist aunt in Chicago over the summer. While there, she falls for a girl in the neighborhood, even as she and her aunt gently challenge each other in the realms of sex and spirit.</small></p>
+</div>
+
+<div class="film gay english" id="c15">
+  <p>Sebastian <span class="price">IMDB Rating: 7.5</span><br />
+  <small>The film centres on Alex (Fanizza), a man in Toronto whose unfulfilling relationship with his husband Nelson (Guifré Bantjes-Rafols) is complicated when he meets and falls for Sebastian (Alex House), Nelson's visiting cousin from Argentina.</small></p>
+</div>
+
+<div class="film lesbian foreign comedy" id="c16">
+  <p>Signature Move <span class="price">IMDB Rating: 7.0</span><br />
+  <small>Zaynab, a thirty-something Pakistani, Muslim, lesbian in Chicago takes care of her sweet and TV-obsessed mother. As Zaynab falls for Alma, a bold and very bright Mexican woman, she searches for her identity in life, love and wrestling.</small></p>
+</div>
+
+<div class="film lesbian foreign documentary" id="c17">
+  <p>Small Talk<span class="price">IMDB Rating: 7.9</span><br />
+  <small>Taiwanese filmmaker Hui-chen Huang knows her mother is a lesbian, but just about nothing else about her. They have lived like strangers under one roof for decades, and almost never talk to each other.One day Hui-chen finally summons up the courage to sit her down and make her mother talk. But is she ready to hear what she has to say?</small></p>
+</div>
+
+<div class="film transgender english drama" id="c18">
+  <p>They<span class="price">IMDB Rating: 5.7</span><br />
+  <small>Fourteen-year-old J goes by the pronoun 'They' and lives with their parents in the suburbs of Chicago. J is exploring their gender identity while taking hormone blockers to postpone puberty.</small></p>
+</div>
+
+<div class="film gay foreign documentary" id="c19">
+  <p>Tom of Finland <span class="price">IMDB Rating: 7.1</span><br />
+  <small>Touko Laaksonen returns home to Finland after serving in World War II. In post-war Helsinki, he makes a name for himself with his homoerotic drawings of muscular men. Before finding fame, Laaksonen finds challenges from his sister and Finnish society due to his art.</small></p>
+</div>
+
+<div class="film gay foreign drama" id="c20">
+  <p>The Wound <span class="price">IMDB Rating: 7.2</span><br />
+  <small>Xolani, a lonely factory worker, travels to the rural mountains with the men of his community to initiate a group of teenage boys into manhood.</small></p>
+</div>
+
+<script src="lgbtmedia.js"></script>
+</body>
